@@ -1,0 +1,51 @@
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(94, 177, 250);
+}
+
+.footer {
+    background-color: rgb(30, 204, 181);
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.text-block {
+    /* float: left; */
+    align-self: left;
+}
+
+.photo {
+    align-self: right;
+
+    float: right;
+    width: 150px;
+    height: 200px;
+    /* align-content: right; */
+    border: 1px solid black;
+}
+
+img {
+    align-items: right;
+    width: 150px;
+    height: 200px;
+}
+
+/* .block {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 20px;
+} */
